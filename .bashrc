@@ -117,3 +117,8 @@ if [[ ("$TERM" = *256color || "$TERM" = screen* || "$TERM" = xterm* ) && -f /etc
 else
     eval $(dircolors)
 fi
+
+
+if [ -f /etc/bash_completion ]; then
+ . /etc/bash_completion
+fi
