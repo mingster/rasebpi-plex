@@ -28,7 +28,7 @@ alias apt-get="sudo apt-get"
 alias updatey="sudo apt-get --yes"
 
 # update on one command
-alias update='sudo apt-get upgrade && apt-get dist-upgrade && apt-get full-upgrade && apt-get update'
+alias update='sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get full-upgrade && sudo apt-get update'
 
 # become root #
 alias root='sudo -i'
