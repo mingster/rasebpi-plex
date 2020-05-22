@@ -11,7 +11,7 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
 
   ```
   git clone https://github.com/mingster/raspberrypi-dotfile ~/dotfiles
-  cd ~/dotfiles
+  cd ~/dotfiles/install
   ```
 
 3. Run the install script:
