@@ -20,7 +20,7 @@ sudo apt-get install bash bash-completion
 #git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 #sudo apt-get install nodejs
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 
