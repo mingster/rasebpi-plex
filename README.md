@@ -1,14 +1,21 @@
-# rasebpi-plex
-cheapest and resource for rase berry pi + plex
+# Dotfiles (Raspbian)
 
-My mac is getting old, can't work on it as CPU go up to 100% while family is watching.
+**Welcome to my Raspberry Pi dotfiles!**
 
-The plan is to move the Plex server to Raspberry Pi. It should be a economical replacement for the media function. 
+This repository is a cut-down version of my Mac OS X dotfiles found [here](https://github.com/mingster/raspberrypi-dotfile). This was specifically made to setup a similar environment on my Raspberry Pi (v4.1.13). It also utilises ZSH as the shell and VIM as the terminal editor.
 
-The solution seems mature, references can be found easily. I ordered the new board, prepare the SD card, and format my 4TB external USB drive to ext4 format. As the board arrives, I will get my hand dirty and note the process here. 
+## Getting Started
 
-References: 
-Installing my 3TB hard drive on Debian linux step by step
-How to build your own Raspberry Pi NAS
-Install Plex Media Server Raspberry Pi 3 + Image
-A more powerful Plex media server using Raspberry Pi 3
+1. Download [NOOBS](https://www.raspberrypi.org/downloads/noobs/) and Raspbian from the RaspberryPI official website.
+2. Clone the project from GitHub:
+
+  ```
+  git clone https://github.com/mingster/raspberrypi-dotfile ~/dotfiles
+  cd ~/dotfiles
+  ```
+
+3. Run the install script:
+
+  ```
+  sh ./install.sh
+  ```
