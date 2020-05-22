@@ -1,5 +1,4 @@
 syntax on
-#colorscheme desert
 
 " Use Vim instead of vi. This must be first because it changes other options
 " as a side effect.
