@@ -1,17 +1,9 @@
 #!/usr/bin/env bash
 
 #intall general shit (must have list)
-sudo apt-get install -y curl tree nmap tmux figlet fonts-inconsolata rsync
-sudo apt-get -y install git
-sudo apt-get -y install htop
-sudo apt-get -y install ntfs-3g
-sudo apt-get -y install hfsplus hfsutils hfsprogs
-sudo apt-get -y install samba samba-common-bin
-sudo apt-get -y install python-dev
-sudo apt-get -y install xclip
-sudo apt-get -y install build-essential
-sudo apt-get -y install cmake
-sudo apt-get -y install pkg-config
+sudo apt-get install -y curl tree nmap htop tmux figlet fonts-inconsolata rsync
+sudo apt-get -y install ntfs-3g hfsplus hfsutils hfsprogs samba samba-common-bin
+sudo apt-get -y install python-dev xclip build-essential cmake pkg-config git
 
 #vi
 sudo apt-get install -y vim vim-common

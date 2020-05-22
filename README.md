@@ -17,5 +17,5 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
 3. Run the install script:
 
   ```
-  sh ./install.sh
+  sh ./Install/setItUp.sh
   ```
