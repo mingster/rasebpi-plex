@@ -9,13 +9,13 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
 1. Clone the project from GitHub:
 
   ```
-  git clone https://github.com/mingster/raspberrypi-dotfile ~/dotfiles
+  git clone https://github.com/mingster/raspi-dotfile ~/dotfiles
   ```
 
 2. Run the install script:
 
   ```
   cd ~/dotfiles/install
-
-  sh ./setItUp.sh
+  chmod +x *.sh
+  ./setItUp.sh
   ```
