@@ -19,3 +19,10 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
   chmod +x *.sh
   ./setItUp.sh
   ```
+
+
+3. Install software needed:
+
+  ```
+  ./software_install.sh
+  ```
